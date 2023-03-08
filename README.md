@@ -1,4 +1,5 @@
-# Image Processor
+# Image Processor 🌟
+<img width="901" alt="GUI_Screenshot" src="https://user-images.githubusercontent.com/94399579/223840295-1e1ab334-78ef-4938-bc7e-0612167791eb.png">
 
 ## changelog – 6/23
 #### Added <code>getImageState</code> to <code>ImageProcessor</code> interface
