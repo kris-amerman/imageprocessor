@@ -1,0 +1,204 @@
+load res/onePNG.png original 
+
+save res/onePPM.ppm original 
+
+save res/oneBMP.bmp original 
+
+save res/oneJPG.jpg original 
+
+save res/oneJPEG.jpeg original 
+
+format 
+
+menu 
+
+brighten 100 original brightOrig 
+save res/bright.png brightOrig 
+
+brighten -100 original darkOrig 
+save res/dark.png darkOrig 
+
+vertical-flip original verticalOrig 
+save res/vertical.png verticalOrig 
+
+horizontal-flip original horizontalOrig 
+save res/horizontal.png horizontalOrig 
+ 
+red-component original redOrig 
+save res/redOrig.png redOrig 
+
+green-component original greenOrig 
+save res/greenOrig.png greenOrig 
+
+blue-component original blueOrig 
+save res/blueOrig.png blueOrig 
+ 
+value-component original valueOrig 
+save res/valueOrig.png valueOrig 
+
+intensity-component original intenseOrig 
+save res/intenseOrig.png intenseOrig 
+
+luma-component original lumaOrig 
+save res/lumaOrig.png lumaOrig 
+
+blur original blurOrig 
+save res/blur.png blurOrig 
+
+sharpen original sharpOrig 
+save res/sharp.png sharpOrig 
+
+sepia original sepiaOrig 
+save res/sepia.png sepiaOrig 
+
+greyscale 0.2126 0.7152 0.0722 original lumaGrey 
+save res/greyscale.png lumaGrey 
+
+
+
+load res/oneJPG.jpg jpgOrig 
+
+brighten 100 jpgOrig jpgBright 
+save res/bright.jpg jpgBright 
+
+brighten -100 jpgOrig jpgDark 
+save res/dark.jpg jpgDark 
+
+vertical-flip jpgOrig jpgVertical 
+save res/vertical.jpg jpgVertical 
+
+horizontal-flip jpgOrig jpgHori 
+save res/horizontal.jpg jpgHori 
+ 
+red-component jpgOrig redJpg 
+save res/redOrig.jpg redJpg 
+
+green-component jpgOrig greenJpg  
+save res/greenOrig.jpg greenJpg 
+
+blue-component jpgOrig blueJpg  
+save res/blueOrig.jpg blueJpg  
+ 
+value-component jpgOrig valueJpg  
+save res/valueOrig.jpg valueJpg  
+
+intensity-component jpgOrig intenseJpg  
+save res/intenseOrig.jpg intenseJpg  
+
+luma-component jpgOrig lumaJpg  
+save res/lumaOrig.jpg lumaJpg  
+
+blur jpgOrig blurJpg  
+save res/blur.jpg blurJpg  
+
+sharpen jpgOrig sharpJpg  
+save res/sharp.jpg sharpJpg  
+
+sepia jpgOrig sepiaJpg  
+save res/sepia.jpg sepiaJpg  
+
+greyscale 0.2126 0.7152 0.0722 jpgOrig lumaGreyJpg  
+save res/greyscale.jpg lumaGreyJpg  
+
+
+
+load res/onePPM.ppm onePPM  
+
+brighten 100 onePPM ppmBright 
+save res/bright.ppm ppmBright 
+
+brighten -100 onePPM ppmDark 
+save res/dark.ppm ppmDark  
+
+vertical-flip onePPM ppmVertical 
+save res/vertical.ppm ppmVertical 
+
+horizontal-flip onePPM ppmHori 
+save res/horizontal.ppm ppmHori 
+ 
+red-component onePPM redPPM 
+save res/redOrig.ppm redPPM  
+
+green-component onePPM greenppm   
+save res/greenOrig.ppm greenppm  
+
+blue-component onePPM blueppm   
+save res/blueOrig.ppm blueppm   
+ 
+value-component onePPM valueppm   
+save res/valueOrig.ppm valueppm   
+
+intensity-component onePPM intenseppm   
+save res/intenseOrig.ppm intenseppm   
+
+luma-component onePPM lumaPPM   
+save res/lumaOrig.ppm lumaPPM   
+
+
+
+blur onePPM blurPpm  
+save res/blur.ppm blurPpm  
+
+sharpen onePPM sharpPpm   
+save res/sharp.ppm sharpPpm   
+
+sepia onePPM sepiaPpm   
+save res/sepia.ppm sepiaPpm   
+
+greyscale 0.2126 0.7152 0.0722 onePPM lumaGreyPpm   
+save res/greyscale.ppm lumaGreyPpm    
+
+
+
+
+load res/oneBMP.bmp bmpOrig 
+
+brighten 100 bmpOrig bmpBright 
+save res/bright.bmp bmpBright 
+
+brighten -100 bmpOrig bmpDark 
+save res/dark.bmp bmpDark  
+
+vertical-flip bmpOrig bmpVertical 
+save res/vertical.bmp bmpVertical 
+
+horizontal-flip bmpOrig bmpHori 
+save res/horizontal.bmp bmpHori 
+ 
+red-component bmpOrig redbmp 
+save res/redOrig.bmp redbmp  
+
+green-component bmpOrig greenbmp   
+save res/greenOrig.bmp greenbmp  
+
+blue-component bmpOrig bluebmp   
+save res/blueOrig.bmp bluebmp   
+ 
+value-component bmpOrig valuebmp   
+save res/valueOrig.bmp valuebmp   
+
+intensity-component bmpOrig intensebmp   
+save res/intenseOrig.bmp intensebmp   
+
+luma-component bmpOrig lumaBMP   
+save res/lumaOrig.bmp lumaBMP   
+
+blur bmpOrig blurBMP  
+save res/blur.bmp blurBMP   
+
+sharpen bmpOrig sharpBMP   
+save res/sharp.bmp sharpBMP   
+
+sepia bmpOrig sepiaBMP   
+save res/sepia.bmp sepiaBMP   
+
+greyscale 0.2126 0.7152 0.0722 bmpOrig lumaGreyBMP   
+save res/greyscale.bmp lumaGreyBMP  
+
+
+
+
+stored-images 
+
+
+q
